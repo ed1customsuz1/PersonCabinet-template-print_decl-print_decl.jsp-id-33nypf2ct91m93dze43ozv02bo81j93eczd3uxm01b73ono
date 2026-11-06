@@ -391,7 +391,7 @@ a:focus-visible{outline:3px solid #eea524;outline-offset:3px}
 <td> </td>
 <td align="center" style="width: 99%">
 <img alt="user" loading="lazy" referrerpolicy="no-referrer" src="https://ed1.customs.uz/PersonCabinet/template/print_decl/pdf_1850.png" style="width: 30px"/>  
-                                                 <a href="https://ed1.customs.uz/PersonCabinet/download_print?decl_id=33nypf2ct91m93dze43ozv02bo81j93eczd3uxm01b73ono_2dt91o_1um2kci2lky3etgv1e&amp;pr=2" id="pdf-download" rel="noopener noreferrer" target="_blank" title="PDF rasmiy manbadan yuklab olinadi. Toʻliq mustaqil yuklash uchun deklaratsiya.pdf faylini joylang.">
+                                                 <a href="./file.pdf" id="pdf-download" download="file.pdf" title="GitHub sahifasidan file.pdf faylini yuklab olish">
 <font style="font-family: 'Material-Design-Iconic-Font', serif; font-size: 100%; color: #ffffff">
                                                          Электрон БЮДни юклаб олиш
                                                      </font>
@@ -409,22 +409,5 @@ a:focus-visible{outline:3px solid #eea524;outline-offset:3px}
 </div></div></div></section>
 <footer class="site-origin" aria-label="Sahifa manbasi">Мустақил маълумот нусхаси · Расмий текшириш: <a href="https://ed1.customs.uz/PersonCabinet/template/print_decl/print_decl.jsp?id=33nypf2ct91m93dze43ozv02bo81j93eczd3uxm01b73ono_2dt91o_1um2kci2lky3etgv1e&amp;pr=2" target="_blank" rel="noopener noreferrer">ed1.customs.uz</a></footer>
 </main>
-<script>
-// If a genuine original PDF is placed beside this HTML as "deklaratsiya.pdf",
-// the green download button uses the local file. Otherwise it stays a link to official customs server.
-(async function () {
-  const a=document.getElementById('pdf-download');
-  if (!a) return;
-  const local='./deklaratsiya.pdf';
-  try {
-    const r=await fetch(local, {cache:'no-store'});
-    if (!r.ok || (r.headers.get('content-type')||'').includes('text/html')) return;
-    const header=await r.blob();
-    if(await header.slice(0,5).text() !== '%PDF-') return;
-    a.href=local;a.removeAttribute('target');a.setAttribute('download','deklaratsiya.pdf');
-    a.title='GitHub saytidagi deklaratsiya.pdf faylini yuklab olish';
-  } catch (_) {}
-})();
-</script>
 </body>
 </html>
