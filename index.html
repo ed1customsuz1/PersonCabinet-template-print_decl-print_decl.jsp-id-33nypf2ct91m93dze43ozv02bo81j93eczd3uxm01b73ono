@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="uz-Cyrl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="description" content="Bojxona yuk deklaratsiyasi haqida ma'lumotning mustaqil, rasmiy bo'lmagan arxiv nusxasi.">
+<title>БЮДни юклаб олиш — мустақил нусха</title>
+<style>
+:root{--green:#009400;--blue:#3050cd;--value-blue:#0d10a3;--gap:7px}
+*{box-sizing:border-box}
+html{min-height:100%;-webkit-text-size-adjust:100%}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#222;min-height:100vh;
+  background-color:#eff6fa;
+  background-image: url("https://ed1.customs.uz/PersonCabinet/template/print_decl/backprint.png"),linear-gradient(115deg,#eaf6fb,#f6fbfe 40%,#e8f1f7);
+  background-size:cover,cover;background-position:center center;background-attachment:fixed}
+a{color:inherit;text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible{outline:3px solid #eea524;outline-offset:3px}
+.note{margin:14px auto 4px;width:min(100% - 24px,520px);background:#fffce7;border:1px solid #e7d58f;border-radius:5px;
+  color:#594e29;font:12px/1.4 Arial,sans-serif;padding:10px 12px;text-align:left}
+.note a{color:#2457c4;text-decoration:underline;font-weight:600}
+#body_bqb{width:min(100% - 24px,460px);margin:10px auto 40px;}
+.content,.container-fluid,.row,.col-md-12,.body{margin:0;padding:0;width:100%;max-width:100%}
+#result_SK>table{width:100%;border-collapse:separate;border-spacing:0 5px;table-layout:fixed}
+#result_SK>table>tbody>tr>td{vertical-align:top;padding:0 3px 0 0}
+#result_SK ul.search-results{list-style:none;margin:0;padding:0;width:100%;}
+#result_SK li.result-list{padding:9px 8px;list-style:none;margin:0;min-height:35px;background:#fff;border:1px solid #dce4ee;
+  border-radius:5px;box-shadow:0 1px 2px rgba(28,48,110,.10);font:13px/1.35 Arial,sans-serif}
+#result_SK li.result-list[style*="background: #009400"]{background:var(--green)!important;color:white;border-color:var(--green)!important}
+#result_SK li.result-list[style*="background: #3050cd"]{background:var(--blue)!important;color:white;border-color:var(--blue)!important}
+#result_SK li.result-list[style*="background: #3050cd"] font{color:#fff!important}
+#result_SK li.result-list:not([style*="background:"]) font {color:var(--value-blue)}
+#result_SK>table>tbody>tr>td:first-child:not([colspan]) li.result-list{display:flex;align-items:center;justify-content:flex-end;text-align:right}
+#result_SK>table>tbody>tr>td:nth-child(2):not([colspan]) li.result-list{display:flex;align-items:center;justify-content:flex-start;text-align:left}
+#result_SK font{font-family:Arial,Helvetica,sans-serif!important;line-height:1.35!important}
+#result_SK li table{border-collapse:collapse}
+#result_SK li table td{padding:1px;vertical-align:middle}
+#result_SK img.rounded-circle{max-width:58px;height:auto;object-fit:contain;}
+#result_SK .form-group{margin:0}
+#result_SK .form-line{margin-left:10px!important;}
+#result_SK>table>tbody>tr:first-child li.result-list{min-height:82px;display:flex;align-items:center;justify-content:center;padding:6px 7px;}
+#result_SK>table>tbody>tr:nth-child(2) li.result-list{font-weight:600;font-size:14px;letter-spacing:.1px}
+#result_SK>table>tbody>tr:nth-child(1) .form-line{max-width:290px}
+#result_SK textarea{display:block;min-height:148px;resize:vertical;border:1px solid #b7c3cb;background:#fff;color:#0d10a3;
+  font:12px/1.3 Arial,Helvetica,sans-serif!important;padding:3px;width:200px!important;white-space:pre-wrap;}
+#result_SK div[style*="overflow: auto"]{overflow:auto!important;width:100%!important;max-width:100%!important}
+#result_SK div[style*="overflow: auto"]>table{width:100%;min-width:390px;border-collapse:collapse;border-color:#8d9bb0}
+#result_SK div[style*="overflow: auto"]>table td{padding:3px 5px}
+#result_SK div[style*="overflow: auto"]>table tr:first-child{background:#d5f3ff}
+#result_SK>table>tbody>tr>td[colspan="2"] li.result-list{width:100%}
+#result_SK li.result-list[style*="background: #009400"] a{color:white!important}
+#result_SK img[src*="pdf_1850.png"]{width:30px;vertical-align:middle}
+#result_SK li.result-list[style*="background: #009400"] a:hover{text-decoration:underline}
+.site-origin{margin-top:14px;padding:6px 0;color:#5e6470;text-align:center;font-size:12px;line-height:1.5}
+.site-origin a{color:#31527c;text-decoration:underline}
+@media(max-width:520px){#body_bqb{width:calc(100% - 16px);margin:10px auto 25px}.note{width:calc(100% - 16px)}
+ #result_SK li.result-list{padding:8px 5px;font-size:12px}
+ #result_SK font{font-size:95%!important}
+ #result_SK img.rounded-circle{max-width:48px}
+ #result_SK .form-line{margin-left:6px!important}
+ #result_SK>table>tbody>tr:first-child li.result-list{min-height:72px}}
+@media(prefers-reduced-motion:no-preference){.aos-item{animation:fadeUp .5s ease both}@keyframes fadeUp{from{opacity:.3;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}}
+@media print{body{background:white}.site-origin{display:none}#body_bqb{width:100%;margin:0}#result_SK li.result-list{box-shadow:none;print-color-adjust:exact;-webkit-print-color-adjust:exact}}
+</style>
+</head>
+<body>
+
+<main id="body_bqb" aria-label="Deklaratsiya ma'lumotlari">
+<section class="content"><div class="container-fluid"><div class="row"><div class="col-md-12">
+<div class="body" id="result_SK">
+<table border="0" style="width: 100%;">
+<tr>
+<td colspan="2" style="width: 100%; vertical-align: top">
+<ul class="search-results">
+<li align="center" class="result-list aos-item" data-aos-delay="100" data-aos-duration="100" style="background: #009400; border-radius: 5px; border-color: #3050cd">
+<table border="0" style="width: 100%;">
+<tr>
+<td> </td>
+<td align="center" style="width: 99%">
+<table border="0">
+<tr>
+<td align="right" style="width: 25%">
+<img alt="user" class="rounded-circle" loading="lazy" referrerpolicy="no-referrer" src="https://ed1.customs.uz/PersonCabinet/main_img/Logo-tamozhni.png" style="width: 100%; margin-top: 0"/>
+</td>
+<td>
+<div class="form-group">
+<div class="form-line" style="margin-left: 10px;">
+<a href="https://ed1.customs.uz/PersonCabinet/template/print_decl/print_decl.jsp?id=33nypf2ct91m93dze43ozv02bo81j93eczd3uxm01b73ono_2dt91o_1um2kci2lky3etgv1e&amp;pr=2" rel="noopener noreferrer" target="_blank">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:100%; color: #ffffff ">
+                                                                             ЎЗБЕКИСТОН РЕСПУБЛИКАСИ<br/> ДАВЛАТ БОЖХОНА ҚЎМИТАСИ
+                                                                         </font>
+</a>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</td>
+<td> </td>
+</tr>
+</table>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="width: 100%; vertical-align: top">
+<ul class="search-results">
+<li align="center" class="result-list aos-item" data-aos-delay="100" data-aos-duration="100" style="background: #009400; border-radius: 5px; border-color: #3050cd">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:100%; color: #ffffff ">БОЖХОНА ЮК ДЕКЛАРАЦИЯСИ</font>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 50%; vertical-align: top">
+<ul class="search-results">
+<li align="right" class="result-list aos-item" data-aos-delay="100" data-aos-duration="200" style="background: #3050cd; border-radius: 5px; border-color: #3050cd">
+<div style="margin-bottom: -5px; margin-top: -5px">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #ffffff">БЮДнинг рўйхат рақами:</font>
+</div>
+</li>
+</ul>
+</td>
+<td>
+<ul class="search-results">
+<li class="result-list aos-item" data-aos-delay="100" data-aos-duration="200" style="border-radius: 5px; border-color: #3050cd">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #0d10a3"><b>26010/15.10.2026/0066648</b></font>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 50%; vertical-align: top">
+<ul class="search-results">
+<li align="right" class="result-list aos-item" data-aos-delay="100" data-aos-duration="400" style="background: #3050cd; border-radius: 5px; border-color: #3050cd">
+<div style="margin-bottom: -5px; margin-top: -5px">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #ffffff">БЮД рўйхатга олинган вақт:</font>
+</div>
+</li>
+</ul>
+</td>
+<td>
+<ul class="search-results">
+<li class="result-list aos-item" data-aos-delay="100" data-aos-duration="400" style="border-radius: 5px; border-color: #3050cd">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #0d10a3">17.10.2026 06:26:47</font>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 50%; vertical-align: top">
+<ul class="search-results">
+<li align="right" class="result-list aos-item" data-aos-delay="100" data-aos-duration="600" style="background: #3050cd; border-radius: 5px; border-color: #3050cd;">
+<div style="margin-bottom: -5px; margin-top: -5px">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #ffffff;">Расмийлаштирилган вақт:</font>
+</div>
+</li>
+</ul>
+</td>
+<td>
+<ul class="search-results">
+<li class="result-list aos-item" data-aos-delay="100" data-aos-duration="600" style="border-radius: 5px; border-color: #3050cd">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #0d10a3">18.10.2026 10:58:45</font>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 50%; vertical-align: top">
+<ul class="search-results">
+<li align="right" class="result-list aos-item" data-aos-delay="100" data-aos-duration="800" style="background: #3050cd; border-radius: 5px; border-color: #3050cd">
+<div style="margin-bottom: -5px; margin-top: -5px">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #ffffff">Расмийлаштирув ҳолати:</font>
+</div>
+</li>
+</ul>
+</td>
+<td>
+<ul class="search-results">
+<li class="result-list aos-item" data-aos-delay="100" data-aos-duration="800" style="border-radius: 5px; border-color: #3050cd">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #0d10a3">
+                                         Расмийлаштирилган
+                                     </font>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 50%; vertical-align: top">
+<ul class="search-results">
+<li align="right" class="result-list aos-item" data-aos-delay="100" data-aos-duration="800" style="background: #3050cd; border-radius: 5px; border-color: #3050cd">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #ffffff">БЮД йўлаги:</font>
+</li>
+</ul>
+</td>
+<td>
+<ul class="search-results">
+<li class="result-list aos-item" data-aos-delay="100" data-aos-duration="800" style="border-radius: 5px; border-color: #3050cd">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #baa414">
+<b>Сариқ</b>
+</font>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 50%; vertical-align: top">
+<ul class="search-results">
+<li align="right" class="result-list aos-item" data-aos-delay="100" data-aos-duration="1000" style="background: #3050cd; border-radius: 5px; border-color: #3050cd">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #ffffff">Божхона режими:</font>
+</li>
+</ul>
+</td>
+<td>
+<ul class="search-results">
+<li class="result-list aos-item" data-aos-delay="100" data-aos-duration="1000" style="border-radius: 5px; border-color: #3050cd">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #0d10a3">ИМ   40</font>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 50%; vertical-align: top">
+<ul class="search-results">
+<li align="right" class="result-list aos-item" data-aos-delay="100" data-aos-duration="1200" style="background: #3050cd; border-radius: 5px; border-color: #3050cd">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #ffffff">Юк жўнатувчи давлат:</font>
+</li>
+</ul>
+</td>
+<td>
+<ul class="search-results">
+<li class="result-list aos-item" data-aos-delay="100" data-aos-duration="1200" style="border-radius: 5px; border-color: #3050cd">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #0d10a3">156 - КИТАЙ</font>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 50%; vertical-align: top">
+<ul class="search-results">
+<li align="right" class="result-list aos-item" data-aos-delay="100" data-aos-duration="1400" style="background: #3050cd; border-radius: 5px; border-color: #3050cd">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #ffffff">Юк келиб тушадиган давлат:</font>
+</li>
+</ul>
+</td>
+<td>
+<ul class="search-results">
+<li class="result-list aos-item" data-aos-delay="100" data-aos-duration="1400" style="border-radius: 5px; border-color: #3050cd">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #0d10a3">860 - ЎЗБЕКИСТОН</font>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 50%; vertical-align: top">
+<ul class="search-results">
+<li align="right" class="result-list aos-item" data-aos-delay="100" data-aos-duration="1600" style="background: #3050cd; border-radius: 5px; border-color: #3050cd">
+<div style="margin-bottom: -5px; margin-top: -5px">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #ffffff">Чегарадаги божхона пости:</font>
+</div>
+</li>
+</ul>
+</td>
+<td>
+<ul class="search-results">
+<li class="result-list aos-item" data-aos-delay="100" data-aos-duration="1600" style="border-radius: 5px; border-color: #3050cd">
+<div style="margin-bottom: -5px; margin-top: -5px">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #0d10a3">27001 - "Яллама" ЧП</font>
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 50%; vertical-align: top">
+<ul class="search-results">
+<li align="right" class="result-list aos-item" data-aos-delay="100" data-aos-duration="1800" style="background: #3050cd; border-radius: 5px; border-color: #3050cd">
+<div style="margin-bottom: -5px; margin-top: -5px">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #ffffff">Транспорт воситаси тури:</font>
+</div>
+</li>
+</ul>
+</td>
+<td>
+<ul class="search-results">
+<li class="result-list aos-item" data-aos-delay="100" data-aos-duration="1800" style="border-radius: 5px; border-color: #3050cd">
+<div style="margin-bottom: -5px; margin-top: -5px">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #0d10a3">30 - Автомобиль транспорти</font>
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 50%; vertical-align: top">
+<ul class="search-results">
+<li align="right" class="result-list aos-item" data-aos-delay="100" data-aos-duration="1800" style="background: #3050cd; border-radius: 5px; border-color: #3050cd">
+<div style="margin-bottom: -5px; margin-top: -5px">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #ffffff">Товар тўғрисидаги маълумотлар:</font>
+</div>
+</li>
+</ul>
+</td>
+<td>
+<ul class="search-results">
+<li class="result-list aos-item" data-aos-delay="100" data-aos-duration="1800" style="border-radius: 5px; border-color: #3050cd">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #0d10a3"><div id="cnt_com">Товар сони: 1 та</div></font>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="width: 100%; vertical-align: top">
+<ul class="search-results">
+<li align="right" class="result-list aos-item" data-aos-delay="100" data-aos-duration="1800" style="/*background: #3050cd;*/ border-radius: 5px; border-color: #3050cd">
+<div style="margin-bottom: -5px; margin-top: -5px; width: 100%">
+<div style="overflow: auto; width: 370px;">
+<table border="1" style="width: 100%; font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #0d10a3">
+<tr style="background: #d5f3ff">
+<td align="center">№</td>
+<td align="center">ТИФ ТН коди</td>
+<td align="center">Товар номи</td>
+<td align="center">Нетто оғирлиги</td>
+<td align="center">Брутто оғирлиги</td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">8703800009</td>
+<td align="center"><textarea aria-label="Товар тавсифи" cols="30" readonly="" rows="9" spellcheck="false" style="width: 200px; font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #0d10a3">1. Легковой автомобиль приводимые в движение электрическим двигателем, марки AION I60. модель: AHC6470BEVJ0R, мощность 150кВт, Запас хода 530км. модель двиг.: TZ180XYD3A01, № кузова:HACAALB38T1157385, № двиг.: AY700S5124A751, об. дв. 0см3, цвет черный,  электрический, 2026г.в. - кол. 1 шт, вес: 1840 кг
+ 2. мест 1, без упаковка
+ 8. 000
+ 9. 000
+ 10. 2026/AHC6470BEVJ0R
+ 11. 02
+ Общее кол. мест: 1</textarea></td>
+<td align="center">1 840,000</td>
+<td align="center">1 840,000</td>
+</tr>
+
+</table>
+</div>
+</div>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 50%; vertical-align: top">
+<ul class="search-results">
+<li align="right" class="result-list aos-item" data-aos-delay="100" data-aos-duration="2000" style="background: #3050cd; border-radius: 5px; border-color: #3050cd">
+<div style="margin-bottom: -5px; margin-top: -5px">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #ffffff">Товарнинг умумий нетто оғирлиги:</font>
+</div>
+</li>
+</ul>
+</td>
+<td>
+<ul class="search-results">
+<li class="result-list aos-item" data-aos-delay="100" data-aos-duration="2000" style="border-radius: 5px; border-color: #3050cd">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #0d10a3">1 840,000 кг.</font>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 50%; vertical-align: top">
+<ul class="search-results">
+<li align="right" class="result-list aos-item" data-aos-delay="100" data-aos-duration="2000" style="background: #3050cd; border-radius: 5px; border-color: #3050cd">
+<div style="margin-bottom: -5px; margin-top: -5px">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #ffffff">Товарнинг умумий брутто оғирлиги:</font>
+</div>
+</li>
+</ul>
+</td>
+<td>
+<ul class="search-results">
+<li class="result-list aos-item" data-aos-delay="100" data-aos-duration="2000" style="border-radius: 5px; border-color: #3050cd">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size:90%; color: #0d10a3">1 840,000 кг.</font>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="width: 100%; vertical-align: top">
+<ul class="search-results">
+<li align="center" class="result-list aos-item" data-aos-delay="100" data-aos-duration="2000" style="background: #009400; border-radius: 5px; border-color: #3050cd">
+<table border="0" style="margin-top: -5px; margin-bottom: -5px; width: 100%">
+<tr>
+<td> </td>
+<td align="center" style="width: 99%">
+<img alt="user" loading="lazy" referrerpolicy="no-referrer" src="https://ed1.customs.uz/PersonCabinet/template/print_decl/pdf_1850.png" style="width: 30px"/>  
+                                                 <a href="https://ed1.customs.uz/PersonCabinet/download_print?decl_id=33nypf2ct91m93dze43ozv02bo81j93eczd3uxm01b73ono_2dt91o_1um2kci2lky3etgv1e&amp;pr=2" id="pdf-download" rel="noopener noreferrer" target="_blank" title="PDF rasmiy manbadan yuklab olinadi. Toʻliq mustaqil yuklash uchun deklaratsiya.pdf faylini joylang.">
+<font style="font-family: 'Material-Design-Iconic-Font', serif; font-size: 100%; color: #ffffff">
+                                                         Электрон БЮДни юклаб олиш
+                                                     </font>
+</a>
+</td>
+<td> </td>
+</tr>
+</table>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+</div></div></div></section>
+<footer class="site-origin" aria-label="Sahifa manbasi">Мустақил маълумот нусхаси · Расмий текшириш: <a href="https://ed1.customs.uz/PersonCabinet/template/print_decl/print_decl.jsp?id=33nypf2ct91m93dze43ozv02bo81j93eczd3uxm01b73ono_2dt91o_1um2kci2lky3etgv1e&amp;pr=2" target="_blank" rel="noopener noreferrer">ed1.customs.uz</a></footer>
+</main>
+<script>
+// If a genuine original PDF is placed beside this HTML as "deklaratsiya.pdf",
+// the green download button uses the local file. Otherwise it stays a link to official customs server.
+(async function () {
+  const a=document.getElementById('pdf-download');
+  if (!a) return;
+  const local='./deklaratsiya.pdf';
+  try {
+    const r=await fetch(local, {cache:'no-store'});
+    if (!r.ok || (r.headers.get('content-type')||'').includes('text/html')) return;
+    const header=await r.blob();
+    if(await header.slice(0,5).text() !== '%PDF-') return;
+    a.href=local;a.removeAttribute('target');a.setAttribute('download','deklaratsiya.pdf');
+    a.title='GitHub saytidagi deklaratsiya.pdf faylini yuklab olish';
+  } catch (_) {}
+})();
+</script>
+</body>
+</html>
